@@ -13,3 +13,6 @@ Every command is a statement.
 Statements are executed line by line.
 
 End of line is a newline \n.
+```
+print("Hello, Kuzur!")  # Prints text
+```
