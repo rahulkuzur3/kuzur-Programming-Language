@@ -42,7 +42,7 @@ Optional: Add kuzur.exe to your PATH for global access.
 ```
 sudo apt update
 sudo apt install wget
-wget -O kuzur https://example.com/file.zip](https://raw.githubusercontent.com/rahulkuzur3/kuzur-Programming-Language/refs/heads/main/interpreter/Linux/kuzur
+wget -O kuzur https://raw.githubusercontent.com/rahulkuzur3/kuzur-Programming-Language/refs/heads/main/interpreter/Linux/kuzur
 sudo mv kuzur /usr/local/bin/
 sudo chmod +x /usr/local/bin/kuzur
 sudo rm -f kuzur
@@ -56,7 +56,7 @@ sudo yum install wget   # CentOS/RedHat
 ```
 
 ```
-wget -O kuzur https://example.com/file.zip](https://raw.githubusercontent.com/rahulkuzur3/kuzur-Programming-Language/refs/heads/main/interpreter/Linux/kuzur
+wget -O kuzur https://raw.githubusercontent.com/rahulkuzur3/kuzur-Programming-Language/refs/heads/main/interpreter/Linux/kuzur
 sudo mv kuzur /usr/local/bin/
 sudo chmod +x /usr/local/bin/kuzur
 sudo rm -f kuzur
@@ -64,7 +64,7 @@ sudo rm -f kuzur
 #### Arch Linux/Manjaro:
 ```
 sudo pacman -S wget
-wget -O kuzur https://example.com/file.zip](https://raw.githubusercontent.com/rahulkuzur3/kuzur-Programming-Language/refs/heads/main/interpreter/Linux/kuzur
+wget -O kuzur https://raw.githubusercontent.com/rahulkuzur3/kuzur-Programming-Language/refs/heads/main/interpreter/Linux/kuzur
 sudo mv kuzur /usr/local/bin/
 sudo chmod +x /usr/local/bin/kuzur
 sudo rm -f kuzur
@@ -72,7 +72,7 @@ sudo rm -f kuzur
 #### OpenSUSE:
 ```
 sudo zypper install wget
-wget -O kuzur https://example.com/file.zip](https://raw.githubusercontent.com/rahulkuzur3/kuzur-Programming-Language/refs/heads/main/interpreter/Linux/kuzur
+wget -O kuzur https://raw.githubusercontent.com/rahulkuzur3/kuzur-Programming-Language/refs/heads/main/interpreter/Linux/kuzur
 sudo mv kuzur /usr/local/bin/
 sudo chmod +x /usr/local/bin/kuzur
 sudo rm -f kuzur
@@ -83,7 +83,7 @@ sudo rm -f kuzur
 ```
 pkg update
 pkg install wget
-wget -O kuzur https://example.com/file.zip](https://raw.githubusercontent.com/rahulkuzur3/kuzur-Programming-Language/refs/heads/main/interpreter/Linux/kuzur
+wget -O kuzur https://raw.githubusercontent.com/rahulkuzur3/kuzur-Programming-Language/refs/heads/main/interpreter/Linux/kuzur
 mv kuzur $PREFIX/bin/
 chmod +x $PREFIX/bin/kuzur
 rm -f kuzur
