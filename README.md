@@ -8,10 +8,6 @@ It’s inspired by Python and allows you to run `.kz` files easily on Windows an
 
 ## 🚀 Features
 
-- Blocks with `{ ... }` like C/JavaScript  
-- Single-line comments with `//`  
-- Cross-platform: Windows & Linux standalone executables
--
 -  Variables: numbers, strings, booleans
 - Conditional statements: `if`, `elif`, `else` 🔄
 - Loops: `while`, `for`, `do-while` 🔁
@@ -42,11 +38,22 @@ Optional: Add kuzur.exe to your PATH for global access.
 
 ### **Linux**
 
-1. Download the latest KuzurLang executable from the dist folder.
-
-2. Open terminal and navigate to the folder containing kuzur.
-
-3. Make it executable (first time only):
+#### Debian/Ubuntu-based:
+```
+sudo apt update
+sudo apt install wget
+wget -O kuzur https://example.com/file.zip](https://raw.githubusercontent.com/rahulkuzur3/kuzur-Programming-Language/refs/heads/main/interpreter/Linux/kuzur
+sudo mv kuzur /usr/local/bin/
+chmod +x /usr/local/bin/kuzur
+sudo rm -f kuzur
+```
+#### Fedora/RedHat/CentOS:
+```
+sudo dnf install wget   # Fedora
+```
+```
+sudo yum install wget   # CentOS/RedHat
+```
 
 ```
 wget -O kuzur https://example.com/file.zip](https://raw.githubusercontent.com/rahulkuzur3/kuzur-Programming-Language/refs/heads/main/interpreter/Linux/kuzur
@@ -54,24 +61,40 @@ sudo mv kuzur /usr/local/bin/
 chmod +x /usr/local/bin/kuzur
 sudo rm -f kuzur
 ```
-4. Run your .kz program:
-
-
+#### Arch Linux/Manjaro:
 ```
-./kuzur myprogram.kz
-```
-Optional: Move it to /usr/local/bin/ for global access:
-```
+sudo pacman -S wget
+wget -O kuzur https://example.com/file.zip](https://raw.githubusercontent.com/rahulkuzur3/kuzur-Programming-Language/refs/heads/main/interpreter/Linux/kuzur
 sudo mv kuzur /usr/local/bin/
+chmod +x /usr/local/bin/kuzur
+sudo rm -f kuzur
 ```
-Now you can run:
+#### OpenSUSE:
+```
+sudo zypper install wget
+wget -O kuzur https://example.com/file.zip](https://raw.githubusercontent.com/rahulkuzur3/kuzur-Programming-Language/refs/heads/main/interpreter/Linux/kuzur
+sudo mv kuzur /usr/local/bin/
+chmod +x /usr/local/bin/kuzur
+sudo rm -f kuzur
+```
+
+### Termux:
+
+```
+pkg update
+pkg install wget
+wget -O kuzur https://example.com/file.zip](https://raw.githubusercontent.com/rahulkuzur3/kuzur-Programming-Language/refs/heads/main/interpreter/Linux/kuzur
+mv kuzur $PREFIX/bin/
+chmod +x $PREFIX/bin/kuzur
+rm -rf kuzur
+```
+
+#### Run your .kz program:
+
+
 ```
 kuzur myprogram.kz
 ```
-from anywhere!
-
-
----
 
 📝 Quick Start
 
