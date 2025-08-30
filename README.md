@@ -119,6 +119,8 @@ Hello, KuzurLang!
 2 + 3 = 5
 
 ```
+#### Learn Kuzur programming language [click here](rulebook.md)
+
 
 🤝 Contributing
 
