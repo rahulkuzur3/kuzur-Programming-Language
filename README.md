@@ -50,7 +50,7 @@ Optional: Add kuzur.exe to your PATH for global access.
 
 ```
 wget -O myfile.zip https://example.com/file.zip
-sudo mv kuzur /usr/local/bin/sudo
+sudo mv kuzur /usr/local/bin/
 chmod +x /usr/local/bin/kuzur
 sudo rm -f kuzur
 ```
