@@ -49,7 +49,7 @@ Optional: Add kuzur.exe to your PATH for global access.
 3. Make it executable (first time only):
 
 ```
-wget -O myfile.zip https://example.com/file.zip
+wget -O kuzur https://example.com/file.zip](https://raw.githubusercontent.com/rahulkuzur3/kuzur-Programming-Language/refs/heads/main/interpreter/Linux/kuzur
 sudo mv kuzur /usr/local/bin/
 chmod +x /usr/local/bin/kuzur
 sudo rm -f kuzur
