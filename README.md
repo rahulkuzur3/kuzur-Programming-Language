@@ -44,7 +44,7 @@ sudo apt update
 sudo apt install wget
 wget -O kuzur https://example.com/file.zip](https://raw.githubusercontent.com/rahulkuzur3/kuzur-Programming-Language/refs/heads/main/interpreter/Linux/kuzur
 sudo mv kuzur /usr/local/bin/
-chmod +x /usr/local/bin/kuzur
+sudo chmod +x /usr/local/bin/kuzur
 sudo rm -f kuzur
 ```
 #### Fedora/RedHat/CentOS:
@@ -58,7 +58,7 @@ sudo yum install wget   # CentOS/RedHat
 ```
 wget -O kuzur https://example.com/file.zip](https://raw.githubusercontent.com/rahulkuzur3/kuzur-Programming-Language/refs/heads/main/interpreter/Linux/kuzur
 sudo mv kuzur /usr/local/bin/
-chmod +x /usr/local/bin/kuzur
+sudo chmod +x /usr/local/bin/kuzur
 sudo rm -f kuzur
 ```
 #### Arch Linux/Manjaro:
@@ -66,7 +66,7 @@ sudo rm -f kuzur
 sudo pacman -S wget
 wget -O kuzur https://example.com/file.zip](https://raw.githubusercontent.com/rahulkuzur3/kuzur-Programming-Language/refs/heads/main/interpreter/Linux/kuzur
 sudo mv kuzur /usr/local/bin/
-chmod +x /usr/local/bin/kuzur
+sudo chmod +x /usr/local/bin/kuzur
 sudo rm -f kuzur
 ```
 #### OpenSUSE:
@@ -74,7 +74,7 @@ sudo rm -f kuzur
 sudo zypper install wget
 wget -O kuzur https://example.com/file.zip](https://raw.githubusercontent.com/rahulkuzur3/kuzur-Programming-Language/refs/heads/main/interpreter/Linux/kuzur
 sudo mv kuzur /usr/local/bin/
-chmod +x /usr/local/bin/kuzur
+sudo chmod +x /usr/local/bin/kuzur
 sudo rm -f kuzur
 ```
 
