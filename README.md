@@ -86,7 +86,7 @@ pkg install wget
 wget -O kuzur https://example.com/file.zip](https://raw.githubusercontent.com/rahulkuzur3/kuzur-Programming-Language/refs/heads/main/interpreter/Linux/kuzur
 mv kuzur $PREFIX/bin/
 chmod +x $PREFIX/bin/kuzur
-rm -rf kuzur
+rm -f kuzur
 ```
 
 #### Run your .kz program:
