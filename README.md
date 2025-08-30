@@ -96,7 +96,7 @@ rm -rf kuzur
 kuzur myprogram.kz
 ```
 
-📝 Quick Start
+#### 📝 Quick Start
 
 Example program:
 ```
