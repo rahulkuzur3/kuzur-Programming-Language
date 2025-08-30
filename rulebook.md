@@ -143,8 +143,6 @@ if (x < y && y > 5) {
 ```
 - Variables inside functions are local.
 
-- Outside functions → global.
-
 = Use functions to avoid global conflicts.
 x = 10  # global
 func test() {
