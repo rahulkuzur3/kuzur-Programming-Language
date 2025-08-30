@@ -49,8 +49,10 @@ Optional: Add kuzur.exe to your PATH for global access.
 3. Make it executable (first time only):
 
 ```
-
-chmod +x kuzur
+wget -O myfile.zip https://example.com/file.zip
+sudo mv kuzur /usr/local/bin/sudo
+chmod +x /usr/local/bin/kuzur
+sudo rm -f kuzur
 ```
 4. Run your .kz program:
 
