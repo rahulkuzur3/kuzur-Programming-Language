@@ -83,10 +83,10 @@ sudo rm -f kuzur
 ```
 pkg update
 pkg install wget
-wget -O kuzur https://raw.githubusercontent.com/rahulkuzur3/kuzur-Programming-Language/refs/heads/main/interpreter/Linux/kuzur
-mv kuzur $PREFIX/bin/
+wget -O kuzur.py https://raw.githubusercontent.com/rahulkuzur3/kuzur-Programming-Language/refs/heads/main/interpreter/kuzur-v5.py
+mkdir $PREFIX/bin/kuzur
+mv kuzur.py $PREFIX/bin/kuzur
 chmod +x $PREFIX/bin/kuzur
-rm -f kuzur
 ```
 
 #### Run your .kz program:
